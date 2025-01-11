@@ -30,10 +30,13 @@
     "zod": "^3.23.3"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.1",
     "@types/node": "^20.14.10",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "postcss": "^8.4.39",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.5.3"
   },
