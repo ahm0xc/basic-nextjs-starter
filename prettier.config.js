@@ -18,6 +18,6 @@ const config = {
   ],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
-};
+}
 
-export default config;
+export default config
