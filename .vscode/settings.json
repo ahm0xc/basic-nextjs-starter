@@ -8,7 +8,7 @@
     "source.fixAll": "always",
     "source.fixAll.stylelint": "always",
     "source.addMissingImports": "always",
-    "source.removeUnused": "always",
+    "source.removeUnusedImports": "always",
     "source.sortImports": "always"
   }
 }
