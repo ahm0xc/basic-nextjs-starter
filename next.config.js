@@ -9,9 +9,6 @@ const config = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  devIndicators: {
-    appIsrStatus: false,
-  },
 };
 
 export default config;
