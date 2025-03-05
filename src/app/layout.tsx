@@ -1,14 +1,14 @@
-import type { Metadata } from "next"
+import type { Metadata } from "next";
 
-import { GeistSans } from "geist/font/sans"
+import { GeistSans } from "geist/font/sans";
 
-import { TRPCReactProvider } from "~/trpc/react"
-import "~/styles/globals.css"
+import "~/styles/globals.css";
+import { TRPCReactProvider } from "~/trpc/react";
 
 export const metadata: Metadata = {
   title: "Basic Nextjs Starter",
   description: "Basic Nextjs Starter",
-}
+};
 
 export default function RootLayout({
   children,
@@ -29,5 +29,5 @@ export default function RootLayout({
         <TRPCReactProvider>{children}</TRPCReactProvider>
       </body>
     </html>
-  )
+  );
 }
