@@ -1,9 +1,9 @@
 {
-  "name": "nextjs-starter",
+  "name": "basic-nextjs-starter",
   "type": "module",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@9.15.1",
+  "packageManager": "pnpm@10.4.0",
   "scripts": {
     "build": "next build",
     "check": "next lint && tsc --noEmit",
@@ -31,16 +31,10 @@
     "zod": "^3.23.3"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.13.0",
-    "@eslint-react/eslint-plugin": "^1.23.2",
     "@trivago/prettier-plugin-sort-imports": "^5.2.1",
     "@types/node": "^20.14.10",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "eslint": "^9.17.0",
-    "eslint-plugin-format": "^1.0.1",
-    "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-react-refresh": "^0.4.16",
     "postcss": "^8.4.39",
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.9",
