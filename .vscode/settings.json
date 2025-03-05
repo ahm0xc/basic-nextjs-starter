@@ -1,9 +1,7 @@
 {
-  // Disable the default formatter, use eslint instead
   "prettier.enable": true,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  // Auto fix
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always",
     "source.organizeImports": "never",
@@ -12,5 +10,5 @@
     "source.addMissingImports": "always",
     "source.removeUnused": "always",
     "source.sortImports": "always"
-  },
+  }
 }
