@@ -6,6 +6,7 @@ import "./src/env.js";
 
 /** @type {import("next").NextConfig} */
 const config = {
+  devIndicators: false,
   eslint: {
     ignoreDuringBuilds: true,
   },
