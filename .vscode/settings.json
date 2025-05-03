@@ -10,5 +10,6 @@
     "source.addMissingImports": "always",
     "source.removeUnusedImports": "always",
     "source.sortImports": "always"
-  }
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
